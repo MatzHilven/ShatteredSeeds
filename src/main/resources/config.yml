@@ -1,0 +1,90 @@
+messages:
+  invalid-permissions: "&cInvalid permissions!"
+  invalid-farm: "&cInvalid farm!"
+  invalid-player: "&cCannot find that player!"
+  invalid-place: "&cCannot place farm here, another farm is in the way!"
+  invalid-funds: "&cYou don't have enough money to buy this upgrade!"
+  usage:
+    - "&bShatteredSeeds &eUsage"
+    - "&7- /givefarm <player> <farm>"
+  received-farm: "&aSuccessfully received farm %farm%&a!"
+
+farms:
+  1:
+    name: "&cApple Farm"
+    material: PLAYER_HEAD
+    url: "http://textures.minecraft.net/texture/476d61d0da9c3395725fd50da17896219379fc99cdb5f6137beacf49f237e2ef"
+    lore:
+      - " "
+      - "&7Place down to spawn an apple farm!"
+    schematic: "apple.schem"
+    upgrades:
+      speed:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+      itemsPerHarvest:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+      storageSpace:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+        6: 100000
+        7: 1000000
+  2:
+    name: "&dCarrot Farm"
+    material: PLAYER_HEAD
+    url: "http://textures.minecraft.net/texture/6f25a97998ffc581b957d73161ab1898cac5cec89c89b34c23cb6d4074c4c8ac"
+    lore:
+      - " "
+      - "&7Place down to spawn a carrot farm!"
+    schematic: "carrot.schem"
+    upgrades:
+      speed:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+      itemsPerHarvest:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+      storageSpace:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+        6: 100000
+        7: 1000000
+  3:
+    name: "&eBanana Farm"
+    material: PLAYER_HEAD
+    url: "http://textures.minecraft.net/texture/20aaa1425d2b99383697d57193f27d872442bcb995508f42d19de4af1f8612"
+    lore:
+      - " "
+      - "&7Place down to spawn a banana farm!"
+    schematic: "banana.schem"
+    upgrades:
+      speed:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+      itemsPerHarvest:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+      storageSpace:
+        2: 10
+        3: 100
+        4: 1000
+        5: 10000
+        6: 100000
+        7: 1000000

@@ -1,0 +1,117 @@
+main:
+  title: "%farm% menu"
+  size: 27
+  filler:
+    enabled: true
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    lore:
+      - " "
+  items:
+    storage:
+      slot: 11
+      material: CHEST
+      name: "&eStorage"
+      lore:
+        - " "
+        - "&7Open storage for this farm!"
+    info:
+      slot: 13
+      material: PAPER
+      name: "&aFarm Information"
+      lore:
+        - " "
+        - "&7Name: %name%"
+        - " "
+        - "&a--- Upgrades ---"
+        - "&7Speed: &a%speed%&7x"
+        - "&7Items per harvest: &a%items%"
+        - "&7Storage capacity: &a%capacity% &7rows"
+    upgrades:
+      slot: 15
+      material: BEACON
+      name: "&bUpgrades Menu"
+      lore:
+        - " "
+        - "&7Open upgrades for this farm!"
+
+storage:
+  title: "%farm% storage"
+  size: 54
+  filler:
+    enabled: true
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    lore:
+      - " "
+  items:
+    previous:
+      slot: 48
+      material: ARROW
+      name: "&aPrevious"
+      lore:
+        - " "
+        - "&7Return to the previous page!"
+    back:
+      slot: 49
+      material: BARRIER
+      name: "&cBack"
+      lore:
+        - " "
+        - "&7Go back to the main menu!"
+    next:
+      slot: 50
+      material: ARROW
+      name: "&aNext"
+      lore:
+        - " "
+        - "&7Go to the next page!"
+
+upgrades:
+  title: "%farm% upgrades"
+  size: 27
+  filler:
+    enabled: true
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    lore:
+      - " "
+  items:
+    speed:
+      slot: 11
+      material: SUGAR
+      name: "&aSpeed &7(%level%/%max_level%)"
+      lore:
+        - " "
+        - "&7Click to upgrade the farms"
+        - "&7speed to level &a%next_level%&7!"
+        - " "
+        - "&7Price: &a%price%"
+    itemsPerHarvest:
+      slot: 13
+      material: WHEAT
+      name: "&bItems per harvest &7(%level%/%max_level%)"
+      lore:
+        - " "
+        - "&7Click to upgrade the amount"
+        - "&7of items the farm gets per harvest"
+        - "&7to level &b%next_level%&7!"
+        - " "
+        - "&7Price: &b%price%"
+    storageSpace:
+      slot: 15
+      material: CHEST
+      name: "&eStorage Space &7(%level%/%max_level%)"
+      lore:
+        - " "
+        - "&7Click to upgrade the farms"
+        - "&7storage space to level &e%next_level%&7!"
+        - " "
+        - "&7Price: &e%price%"
+    back:
+      slot: 22
+      material: BARRIER
+      name: "&cBack"
+      lore:
+        - " "
+        - "&7Go back to the main menu&7!"

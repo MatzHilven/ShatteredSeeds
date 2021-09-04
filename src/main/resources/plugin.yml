@@ -1,0 +1,11 @@
+name: ShatteredSeeds
+version: ${project.version}
+main: me.matzhilven.shatteredseeds.ShatteredSeeds
+api-version: 1.17
+authors: [ MatzHilven ]
+depend:
+  - Vault
+commands:
+  givefarm:
+    permission: seeds.givefarm
+permission: seeds.givefarm
